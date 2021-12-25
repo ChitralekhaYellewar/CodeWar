@@ -32,7 +32,6 @@ struct ContentView: View {
                 Spacer()
                 Button(action: {
                     // Random number
-                    
                     let randomPlayer = Int.random(in: 2...14)
                     let randomCpu = Int.random(in: 2...14)
                     
